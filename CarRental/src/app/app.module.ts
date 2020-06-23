@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
+import { ContuctUsComponent } from './contuct-us/contuct-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ListComponent
+    ListComponent,
+    ContuctUsComponent
   ],
   imports: [
     BrowserModule,
